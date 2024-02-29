@@ -1,7 +1,7 @@
 This repository is part of the Supporting Information of the paper *Cyclic steady state simulation and waveform design for Dynamic/Programmable Catalysis*, by Carolina Colombo Tedesco, John R. Kitchin, and Carl D. Laird.
 It contains Jupyter Notebooks with code used to obtain the results and figures discussed in the work. 
 The seventeen notebooks are numerated as they are mentioned throughout the paper, and can be easily accessed and run in Google Colab through the button besides the name of the notebooks listed below for each folder in this repository (the buttons are also on top of the notebooks when accessed in the repo).
-All notebooks include a cell that quickly installs Munch, Pyomo and IPOPT (with the ma27 linear solver), which are needed for running most notebooks.
+All notebooks include a cell (as seen in [this link](https://jckantor.github.io/ND-Pyomo-Cookbook/notebooks/01.02-Running-Pyomo-on-Google-Colab.html#installing-pyomo-and-solvers)) that quickly installs Munch, Pyomo and IPOPT (with the ma27 linear solver), which are needed for running most notebooks.
 
 **Optimization**: This folder contains notebooks with results for the optimization, either gradient-free and/or gradient-based, of the waveforms used in the study. 
 
@@ -30,4 +30,4 @@ Through the results obtain, one can see both metholodgies provide similar result
 16-Sensitivity_analysis_amplitude_offset.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KitchinHUB/si-dynamic-catalysis-1/blob/master/Others/16-Sensitivity_analysis_amplitude_offset.ipynb)\
 17-Number_finite_elements_study.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KitchinHUB/si-dynamic-catalysis-1/blob/master/Others/17-Number_finite_elements_study.ipynb)
 
-Please, feel free to open an Issue in case you find any problem or have any doubt on how to use the notebooks and code provided here. 
+Please, feel free to open an Issue in case you find any problems or have any doubt on how to use the notebooks and code provided in this repository. 
