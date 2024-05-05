@@ -1,4 +1,7 @@
 This repository is part of the Supporting Information of the paper *Cyclic Steady State Simulation and Waveform Design for Dynamic/Programmable Catalysis*, by Carolina Colombo Tedesco, John R. Kitchin, and Carl D. Laird.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11116036.svg)](https://doi.org/10.5281/zenodo.11116036)
+
 It contains Jupyter Notebooks with code used to obtain the results and figures discussed in the work. 
 The seventeen notebooks are numerated here as mentioned throughout the paper, and can be easily accessed and run in Google Colab through the button besides their names listed below, which are also on the top of the notebooks when accessed in the repo.
 The notebooks include a cell (as seen in [this link](https://jckantor.github.io/ND-Pyomo-Cookbook/notebooks/01.02-Running-Pyomo-on-Google-Colab.html#installing-pyomo-and-solvers)) that quickly installs Munch, Pyomo and IPOPT (with the ma27 linear solver), which are needed for obtaining the results.
